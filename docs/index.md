@@ -22,6 +22,11 @@ The database used contains 1539 pages of scanned text sentences written by 600+ 
 
 ![example](https://github.com/TejasReddy9/handwriting_cnn/blob/master/docs/a01-011.png?raw=true)
 
+These full pages are shortened and uploaded in the IAM Handwriting dataset in the sentences directory. This data is so elaborate that it has all formats and for all purposes, it also has the file informations in JSON formats. Really fun working with this dataset.
+
+![sentence](https://github.com/TejasReddy9/handwriting_cnn/blob/master/a01-011-s00-00.png?raw=true)
+![sentence](https://github.com/TejasReddy9/handwriting_cnn/blob/master/a01-011-s00-01.png?raw=true)
+
 As Neural Networks don't need much preprocessing of raw data, we keep images unchanged rather we make few patches of the image and pass them.
 
 ## Preprocessing

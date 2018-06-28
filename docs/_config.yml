@@ -1,5 +1,5 @@
 title: Handwriting Recognition using CNN
-description: A deep learning solution for handwriting recognition using a self-designed model with the help of Convolutional Neural Networks. This project is done under the guidance of Dr. Gaurav Harit, Asst. Prof., IIT Jodhpur
+description: A deep learning solution for handwriting recognition using a self-designed model with the help of Convolutional Neural Networks in TensorFlow and Keras. This project is done under the guidance of Dr. Gaurav Harit, Asst. Prof., IIT Jodhpur
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-cayman

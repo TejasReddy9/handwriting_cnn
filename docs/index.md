@@ -18,7 +18,9 @@ Actual traditional way is to establish features like curvature of each type of l
 
 ## Data Gathering
 
-The database used contains 1539 pages of scanned text sentences written by 600+ writers. This project uses the top 50 writers with most amount of data. Data is grouped by writers having written a collection of sentences.
+The database used contains 1539 pages of scanned text sentences written by 600+ writers. This project uses the top 50 writers with most amount of data. Data is grouped by writers having written a collection of sentences. Example for one of the sentences written by a writer is shown below.
+
+![example](https://github.com/TejasReddy9/handwriting_cnn/blob/master/docs/a01-011.png?raw=true)
 
 As Neural Networks don't need much preprocessing of raw data, we keep images unchanged rather we make few patches of the image and pass them.
 
@@ -34,7 +36,7 @@ Keras is a library for deep learning with outstanding results recent days. I've 
 
 Three blocks of convolution - maxpool layers and a couple of dense layers were sufficent as far as this project is concerned.
 
-Following is the design o the model:
+Following is the design of the model:
 
 | Layer (type)                     | Shape                 | Params |
 |:---------------------------------|:----------------------|:-------|
@@ -60,6 +62,9 @@ Following is the design o the model:
 | output (Dense)                   | `(None, 50)`          | 12850  |
 | activation_12 (Activation)       | `(None, 50)`          | 0      |
 
+## Usable in Practical Applications
+
+Please fork and use this model, it has high prediciton accuracy. This can be scalable to used in any practical problem you are working on. I've uploaded the curated dataset and the model on Kaggle kernels and datasets. Pull requests and merge requests are actively reviewed and updated.
 
 
 

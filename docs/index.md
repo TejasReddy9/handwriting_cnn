@@ -28,7 +28,7 @@ As Neural Networks don't need much preprocessing of raw data, we keep images unc
 
 For our CNN to understand the writing style, language is not a restriction, so we pass patches of text having image size 113x133 from each sentence. We dont break them w.r.t. sentences or words, but we break them down into smaller image sets. 
 
-For serving the purpose, a generator function is implemented to scan through each sentence and generate random patches with same patch size. CNN doesn't even need to take the full data, so I've limited the number of patches to be 30% of the total patches which could've been generated from the function. 
+For serving the purpose, a generator function is implemented to scan through each sentence and generate random patches with same patch size. CNN doesn't even need to take the full data, so I've limited the number of patches to be 30% of the total patches which could've been generated from the function. Of course, data-set is shuffled.
 
 ## Self-designed CNN Model
 

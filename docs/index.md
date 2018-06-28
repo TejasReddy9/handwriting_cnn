@@ -2,17 +2,13 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+# Overview
 
-[Link to another page](./another-page.html).
+Handwriting can be acquired in two ways. 
+1.  Offline: Images are acquired using an image scanner.
+2.  Online: Acquisition using coordinates in plane and the pressure acquired w.r.t. time.
 
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+This project is done by taking data acquired offline, it's the famous [IAM Handwriting dataset]()
 
 ## Header 2
 

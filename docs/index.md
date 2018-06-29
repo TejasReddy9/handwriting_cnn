@@ -18,7 +18,7 @@ Actual traditional way is to establish features like curvature of each type of l
 
 ## Data Gathering
 
-The database used contains 1539 pages of scanned text sentences written by 600+ writers. This project uses the top 50 writers with most amount of data. Data is grouped by writers having written a collection of sentences. Example for one of the sentences written by a writer is shown below.
+The database used contains 1539 pages of scanned text sentences written by 600+ writers. This project uses the top 50 writers with most amount of data. Data is grouped by writers having written a collection of sentences. Example for one of the sentences written by a writer is shown below. I've uploaded the curated dataset to [Kaggle datasets]().
 
 ![example](https://github.com/TejasReddy9/handwriting_cnn/blob/master/docs/a01-011.png?raw=true)
 
